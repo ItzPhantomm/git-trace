@@ -22,20 +22,20 @@ It is built for onboarding, incident triage, inherited codebases, and the moment
 ### Fastest: run directly from GitHub
 
 ```bash
-uvx --from git+https://github.com/phantom1785322-hub/git-crime-scene.git crime-scene /path/to/repository
+uvx --from git+https://github.com/ItzPhantomm/git-crime-scene.git crime-scene /path/to/repository
 ```
 
 ### Persistent install
 
 ```bash
-uv tool install git+https://github.com/phantom1785322-hub/git-crime-scene.git
+uv tool install git+https://github.com/ItzPhantomm/git-crime-scene.git
 crime-scene /path/to/repository
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/phantom1785322-hub/git-crime-scene.git
+git clone https://github.com/ItzPhantomm/git-crime-scene.git
 cd git-crime-scene
 uv sync
 uv run crime-scene /path/to/repository
